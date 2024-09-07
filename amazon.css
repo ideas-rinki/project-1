@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+    color: white;
+}
+.navbar{
+    height: 150px;
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+.nav_logo{
+    height: 100px;
+    width: 200px;
+    margin: 60px;
+    padding: 20px;
+    display: flex;
+    border:2px solid transparent;
+}
+.logo{
+    background-image: url("ama.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 200%;
+    font-size:80px;
+    
+
+}
+.nav_logo:hover{
+    border:2px solid white;
+}
+
+.address{
+    font-size: 2.89rem;
+    margin-left: 80px;
+    color: #cccccc;
+}
+.india{
+    font-size: 3rem;
+    margin-left: 20px;
+    color: #ffffff;
+}
+.add-icon{
+    display:flex;
+    font-size: 60px;
+}
+.hyy{
+    border:2px solid transparent;
+}
+.hyy:hover{
+    border:2px solid white;
+}
+.search-icon{
+    display: flex;
+    height: 100px;
+    border: 2px solid transparent;
+    
+    
+}
+.option{
+    /* height:100px; */
+    width:200px;
+    color:black;
+    font-size: 50px;
+    background-color: #E6E6E6;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.option:hover{
+    border: 2px solid rgb(209, 203, 203);
+}     
+.placeholder{
+    /* height: 100px; */
+    width:2000px;
+    font-size: 50px;
+    color: black;
+    padding: 10px;
+
+} 
+.icon{
+    /* height:100px; */
+    width:120px;
+    font-size: 50px;
+    background-color: rgba(240, 70, 9, 0.81);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border: 2px solid transparent;
+}  
+.icon:hover{
+    background-color: orange;
+}
+.nav-hello{
+    margin: 30px;
+    padding: 10px;
+    border:2px solid transparent;
+}
+.nav-hello:hover{
+    border:2px solid white;
+}
+
+.span{
+    /* height:27px;
+    width:140px; */
+    font-size: 42px;
+}
+.account{
+    /* height:37px;
+    width:200px; */
+    
+    font-size: 40px;
+    font-weight: 800px;
+
+}
+.nav-endone{
+    margin: 45px;
+    padding: 10px;
+    border:2px solid transparent;
+}
+.nav-endone:hover{
+    border:2px solid white;
+}
+.order{
+    font-size: 40px;
+    font-weight: 800px;
+
+}
+.last{
+    margin: 50px;
+    padding:8px;
+    display:flex;
+
+    border:2px solid transparent;
+}
+.last:hover{
+    border:2px solid white;
+}
+.last i{
+    font-size: 70px;
+}
+.cart{
+   font-size: 50px;
+   font-weight: 800px;
+}
+.second{
+    height: 100px;
+    background-color: #232f3e;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu i{
+    font-size: 40px;
+}
+.menu{
+     font-size: 40px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    border: 2px solid transparent;
+    margin: 15px;
+    font-weight: 800%;
+    
+
+}
+.menu:hover{
+   
+    border: 2px solid white;
+}
+.ops {
+    display: flex;
+    font-size: 40px;
+    width: 70%;
+  
+   
+}
+.ops p{
+    margin-left: 70px;
+    border: 2px solid transparent;
+    margin: 15px;
+    font-weight: 800%;
+}
+.ops p:hover{
+   
+    
+    border: 2px solid white;
+}
+.app{
+    font-size: 40px;
+    font-weight: 800%;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.image{
+    height: 80px;
+    width:80px;
+    background-image: url("logo.jpeg");
+    background-size: cover;
+}
+.app:hover{
+    border: 2px solid white; 
+}
+.hero{
+    height: 1500px;
+    background-image: url("hero.jpg");
+    background-size: cover;
+
+}
+.content{
+    height: 80px;
+    width: 270rem;
+    color: black;
+    font-size: 50px;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+    background-color: #ff8fab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    height:1500px;
+    width: 300rem;
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box1{
+    height: 1000px;
+    width: 1100.52px;
+    background-color: blueviolet;
+    background-image: url("clothes.jpg");
+    background-size: cover;
+}
+.box2{
+    height: 1000px;
+    width: 1100.52px;
+    background-color: #22885d;
+}
+.box3{
+    height: 1000px;
+    width: 1100.52px;
+    background-color: #cf5319;
+}
+.box4{
+    height: 1000px;
+    width: 1100.52px;
+    background-color: #977f15;
+}
+.box11{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
